@@ -3,8 +3,8 @@ const app = Vue.createApp({
         const name = Vue.ref('')
         const email = Vue.ref('')
 
-        function handleSubmit(event) {
-            event.preventDefault()
+        function handleSubmit() {
+            // event.preventDefault()
             console.log(`Name: ${name.value}, Email: ${email.value}`)
         }
 
